@@ -7,7 +7,7 @@ from dateutil import parser as dtparser
 from scipy.stats import poisson
 
 # ------------------ CONFIG ------------------
-API_KEY = st.secrets.get("FOOTBALL_DATA_API_KEY", os.getenv("FOOTBALL_DATA_API_KEY", ""))
+API_KEY = st.secrets.get("b73fb46b6f9c4240a2ec8b2d8facf553", os.getenv("b73fb46b6f9c4240a2ec8b2d8facf553", ""))
 BASE_URL = "https://api.football-data.org/v4"
 HEADERS = {"X-Auth-Token": API_KEY}
 
